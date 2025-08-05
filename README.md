@@ -1,0 +1,2 @@
+# WALLART
+ Harcama Takip Uygulaması
