@@ -11,11 +11,15 @@ from features.ai_advisor import ai_advice
 from database import connect_db, create_table, create_saving_table
 
 from features.saving import show_saving_feature
+from PIL import Image  # Logo için bu lazım
 
 st.set_page_config(page_title="Wallart", layout="wide")
-st.title("📊 WALLART - Harcamalarını Kontrol Et")
+col1, col2 = st.columns([1, 5])
+with col1:
+    st.image("assets/WALLART.png", width=550)
+with col2:
+    st.title("WALLART - Harcamalarını Kontrol Et")
 
-# Veritabanı bağlantısı
 conn, c = connect_db()
 create_table(c)
 create_saving_table(c)
@@ -36,3 +40,8 @@ if df is not None:
     ai_advice(df)
 
 
+# Logo göster
+logo = Image.open("assets/PROFİL.png")
+st.image(logo, width=150)  # İstersen width ile boyutunu ayarla
+
+st.title("📊 WALLART - HİLAL YEŞİM ALTUNAY")
