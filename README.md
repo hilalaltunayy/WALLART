@@ -1,3 +1,4 @@
+
 # 📊 Wallart - Harcama Takip Uygulaması
 
 Wallart, kişisel harcamalarınızı takip etmenizi, kategorilere göre analiz yapmanızı ve birikim hedeflerine ulaşmanızı sağlayan interaktif bir bütçe takip uygulamasıdır. Streamlit ile geliştirilmiştir.
@@ -19,6 +20,8 @@ Wallart, kişisel harcamalarınızı takip etmenizi, kategorilere göre analiz y
 ### 1. Gerekli ortamı oluştur
 
 ```bash
+
+
 python -m venv venv
 
 Windows:
@@ -60,3 +63,13 @@ Hilal Yeşim Altunay
 Teknik olarak geliştirdiğim ilk profesyonel projeydi. 
 Proje geliştirme sürecinde keyifli vakit geçirdim. Pek çok teknolojiyi kullanmayı öğrendim.
 İletişim: altunayhilal14@gmail.com
+
+
+---
+
+Bunu yapıp **Ctrl + S ile kaydettikten sonra**, terminalde sırayla:  
+
+```bash
+git add README.md
+git commit -m "Finalize README after merge"
+git push -u origin main
