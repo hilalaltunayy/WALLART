@@ -67,9 +67,7 @@ Proje geliştirme sürecinde keyifli vakit geçirdim. Pek çok teknolojiyi kulla
 
 ---
 
-Bunu yapıp **Ctrl + S ile kaydettikten sonra**, terminalde sırayla:  
+
 
 ```bash
-git add README.md
-git commit -m "Finalize README after merge"
-git push -u origin main
+
